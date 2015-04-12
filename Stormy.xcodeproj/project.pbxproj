@@ -14,6 +14,7 @@
 		B2DDD0C61AD9D328006283AD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2DDD0C51AD9D328006283AD /* Images.xcassets */; };
 		B2DDD0C91AD9D328006283AD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2DDD0C71AD9D328006283AD /* LaunchScreen.xib */; };
 		B2DDD0D51AD9D328006283AD /* StormyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DDD0D41AD9D328006283AD /* StormyTests.swift */; };
+		B2DDD0DF1AD9E4FB006283AD /* Current.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DDD0DE1AD9E4FB006283AD /* Current.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		B2DDD0CE1AD9D328006283AD /* StormyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StormyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2DDD0D31AD9D328006283AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2DDD0D41AD9D328006283AD /* StormyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StormyTests.swift; sourceTree = "<group>"; };
+		B2DDD0DE1AD9E4FB006283AD /* Current.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Current.swift; path = ../Current.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				B2DDD0BB1AD9D328006283AD /* AppDelegate.swift */,
+				B2DDD0DE1AD9E4FB006283AD /* Current.swift */,
 				B2DDD0C01AD9D328006283AD /* ViewController.swift */,
 				B2DDD0C21AD9D328006283AD /* Main.storyboard */,
 				B2DDD0C51AD9D328006283AD /* Images.xcassets */,
@@ -218,6 +221,7 @@
 				B2DDD0C11AD9D328006283AD /* ViewController.swift in Sources */,
 				B2DDD0BC1AD9D328006283AD /* AppDelegate.swift in Sources */,
 				B2DDD0BF1AD9D328006283AD /* Stormy.xcdatamodeld in Sources */,
+				B2DDD0DF1AD9E4FB006283AD /* Current.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +419,7 @@
 				B2DDD0DA1AD9D328006283AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B2DDD0DB1AD9D328006283AD /* Build configuration list for PBXNativeTarget "StormyTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +428,7 @@
 				B2DDD0DD1AD9D328006283AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
